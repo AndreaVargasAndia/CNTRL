@@ -13,7 +13,7 @@ int main()
     cin>>m;
     cout<<"COLUMNAS: ";
     cin>>n;
-/*-----------FORMAR MATRIZ-------------------------*/
+
               for(i=0;i<m;i++)
               {
               for(j=0;j<n;j++)
@@ -24,7 +24,6 @@ int main()
               }
 
 
-/*-------------MOSTRAR MATRIZ--------------------------*/
        cout<<" Matriz A:   \n";
        {
        for(i=0;i<m;i++)
@@ -40,7 +39,7 @@ int main()
        cout<<"\n";
        }
 
-/*---------------------------------------------------------*/
+
        int o,op,fn,ari,md,mdb,fnl;
 
        for(i=0;i<m-1;i++)
